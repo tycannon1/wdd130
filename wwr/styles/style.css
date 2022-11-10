@@ -226,4 +226,14 @@ main section img {
     footer {
         margin-top: 25px;
     }
+}   
+.priceimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.pricetext {
+    text-align: center;
+    padding-bottom: 90px;
 }
