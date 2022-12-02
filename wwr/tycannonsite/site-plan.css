@@ -2,6 +2,8 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,7 +13,7 @@ Fonts are separated by a | */
   --accent2-color: #E4E1E2;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Heveltica, Bold";
+  --heading-font: 'Lato Black 900', sans-serif;
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+/* Dropdown Button */
+.dropbtn {
+    background-color: #212F31 ;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:#A67751;}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #A67751;
+}
+li{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 16px;
+    color:bisque;
+    text-decoration: none;
+    
+}
+Header{
+    Display: Flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+title {
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav li a{
+    transition: all 0.3s ease 0s;
+}
+nav li a:hover {
+    color: bisque;
+}
+H1{
+    font-family:'Lato Black 900', sans-serif;
+}
+H2{
+    font-family: Lato;
+}
+#photobanner img{
+    
+    width: 300px; height: 337px; object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
