@@ -121,3 +121,28 @@ p {
     font-family: Latto;
     color: white;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+  }
+  
+  img {
+    max-width: 65%
+  }
+  
+  .image {
+    flex-basis: 60%
+  }
+  
+  .text {
+    font-size: 10px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+
+
+  
