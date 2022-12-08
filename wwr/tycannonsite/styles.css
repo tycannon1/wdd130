@@ -50,7 +50,7 @@
     padding: 0;
     background-color: #A67751;
 }
-li{
+a{
     font-family: lato;
     font-weight: 500;
     font-size: 16px;
@@ -68,15 +68,14 @@ Header{
 title {
     cursor: pointer;
 }
-nav li{
+nav a{
     display: inline-block;
     padding: 0px 20px;
-}
-nav li a{
     transition: all 0.3s ease 0s;
 }
-nav li a:hover {
-    color: bisque;
+
+nav a:hover {
+    color:#212F31;
 }
 H1{
     font-family:'Lato Black 900', sans-serif;
